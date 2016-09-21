@@ -20,9 +20,10 @@ The simplest working example is:
 
 ```
 const EventStream = require('dgb-event-stream')
-const stream = new EventStream({world: 'Connery_1', eventNames: ['VehicleDestroy']})
 
 process.env.SERVICE_ID = 'example'
+
+const stream = new EventStream({world: 'Connery_1', eventNames: ['VehicleDestroy']})
 
 stream.on('VehicleDestroy', (data) => {
 	console.log('data', data.toJS())
@@ -50,7 +51,7 @@ The Census API service ID can be set with environment variables at the moment. T
 
 ## Misc
 
-### World Names:
+### World Names
 
 - `Connery_1`
 
