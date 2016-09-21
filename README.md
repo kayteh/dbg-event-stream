@@ -4,6 +4,12 @@ This library is designed for Planetside 2's event websocket/api, and was directl
 
 **This library is a WIP.** There are no guarantees to it working for your case. If you need things to work, make a pull request. This currently only works for `VehicleDestroy` events.
 
+## Installing
+
+```
+npm install --save dbg-event-stream
+```
+
 ## Debugging
 
 If you need this library to output logs, set the environment variable `DES_LOGGING=true` to your project. If you want a crazy level of verbosity, also set `DES_DEBUG=true`
@@ -24,6 +30,8 @@ stream.on('VehicleDestroy', (data) => {
 ```
 
 This `EventStream.on(eventName, callback)` will emit every vehicle death as an [`Immutable#Map`](https://facebook.github.io/immutable-js/docs/#/Map).
+
+The Census API service ID can be set with environment variables at the moment. This might change in the future.
 
 ## Options
 
