@@ -18,7 +18,7 @@ If you need this library to output logs, set the environment variable `DES_LOGGI
 
 The simplest working example is:
 
-```
+```js
 const EventStream = require('dgb-event-stream')
 
 process.env.SERVICE_ID = 'example'
