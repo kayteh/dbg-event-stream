@@ -47,3 +47,20 @@ The Census API service ID can be set with environment variables at the moment. T
 ## Caveats
 
 - `faction_id` in the payload is probably wrong. Don't trust it. Use another method of getting that value.
+
+## Misc
+
+### World Names:
+
+- `Connery_1`
+
+- `Miller_10`
+
+- `Cobalt_13`
+
+- `Emerald_17`
+
+- `Jaeger_19`
+
+- `Briggs_25`
+
