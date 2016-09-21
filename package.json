@@ -1,0 +1,20 @@
+{
+  "name": "dbg-event-stream",
+  "version": "0.1.0",
+  "description": "WIP: Daybreak Games/Planetside 2 event socket/API stream library",
+  "main": "eventSocket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kayteh/dbg-event-stream"
+  },
+  "keywords": [
+    "planetside 2",
+    "daybreak games",
+    "census api",
+  ],
+  "author": "Katie Thornhill <kath@splitmedialabs.com>",
+  "license": "MIT"
+}
